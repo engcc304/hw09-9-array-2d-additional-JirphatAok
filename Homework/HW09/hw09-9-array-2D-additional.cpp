@@ -51,7 +51,7 @@ int main() {
             scanf( "%d", &matrix_2[ i ][ j ] ) ;
         }
     }
-    
+
     int matrix_3[ high ][ Long ];
 
     for (int i = 0; i < high; i++) {
@@ -62,7 +62,7 @@ int main() {
     printf("Array1 + Array2 = Array3\n");
         for (int i = 0; i < high; i++) {
             for (int j = 0; j < Long; j++) {
-                printf("%d ", matrix_3[i][j]);
+                printf(" %d", matrix_3[i][j]);
             }
             printf("\n");
         }
