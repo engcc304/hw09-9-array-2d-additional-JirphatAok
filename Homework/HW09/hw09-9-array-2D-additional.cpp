@@ -62,7 +62,7 @@ int main() {
     printf("Array1 + Array2 = Array3\n");
         for (int i = 0; i < high; i++) {
             for (int j = 0; j < Long; j++) {
-                printf(" %d", matrix_3[i][j]);
+                printf("%d ", matrix_3[i][j]);
             }
             printf("\n");
         }
